@@ -18,5 +18,12 @@ Fiturnya:
 - go run main.go
 
 # Testing
-- buka postman
+- Buka postman
 - jalankan localhost:8000/register
+  - {
+	"username" : "dewi",
+	"password" : "dewi23",
+	"nama" : "dewi"
+}
+- ketika return success ada respon token,tokennya digunakan ketika ingin akses getuser,update user,delete user.
+- jadi di header di tambahkan key : Authorization,value : respon token
